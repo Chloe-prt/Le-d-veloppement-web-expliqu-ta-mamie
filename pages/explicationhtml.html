@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/explicationhtml.css">
+    <title>C'est quoi le HTML</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="/index.html">
+                <img src="../assets/image/logo ordi.jpg" alt="logo ordi">
+            </a>
+        </div>
+        <div>
+            <nav>
+                <ul class="burger">
+                    <li>
+                        <a href="/pages/explicationhtml.html">HTML</a>
+                    </li>
+                    <li>
+                        <a href="explicationcss.html">CSS</a>
+                    </li>
+                    <li>
+                        <a href="explicationjs.html">Javascript</a>
+                    </li>
+                    <li>
+                        <a href="explicationphp.html">PHP</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger-img">
+                <img src="../assets/image/logo menu.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="logo-html">
+            <img src="../assets/image/logo html (2).png" alt="">
+        </div>
+        <section>
+            <article>
+                <h1>Qu'est ce que c'est le language HTML ?</h1>
+                <p>Langage de balisage : HTML utilise des balises pour décrire différents types de contenu. Chaque balise a une fonction spécifique, comme structurer des titres, des paragraphes, des images ou des liens.</p>
+                <p>Structure hiérarchique : HTML est organisé de manière hiérarchique. Une page HTML commence par une déclaration de type, suivie d'éléments &lthtml&gt, &lthead&gt, et &ltbody&gt, ce qui permet de séparer les métadonnées du contenu visible.</p>
+                <p>Compatibilité : HTML est pris en charge par tous les navigateurs web, ce qui le rend essentiel pour la création de sites accessibles à tous.</p>
+                <p>Interactivité et intégration : Bien que HTML ne gère pas l'interactivité par lui-même, il peut être complété par CSS (pour le style) et JavaScript (pour les comportements dynamiques), permettant ainsi de créer des expériences utilisateur riches.</p>
+                <p>Évolution : HTML a évolué au fil du temps, avec des versions révisées qui ont introduit de nouvelles balises et fonctionnalités. La version la plus récente, HTML5, a ajouté des éléments pour le multimédia, la géolocalisation et bien d'autres</p>
+            </article>
+            <article>
+                <h1>À quoi ça sert ?</h1>
+                <p>HTML est utilisé pour:</p>
+                <p>Structurer le contenu d’un site web, avec des balises de titres &lth1&gt à &lth6&gt, les paragraphes avec les balises &ltp&gt, des listes &ltul&gt désordonées et des listes &ltol&gt ordonées</p>
+                <p>HTML facilite l'intégration d'éléments multimédias comme: <br> images: Avec la balise &ltimg&gt. <br> vidéos: Avec les balises &ltvideo&gt et &ltaudio&gt.</p>
+                <p>Créer des hyperliens grâce à la balise &lta&gt, permettant aux utilisateurs de naviguer entre différentes pages ou ressources en ligne.</p>
+                <p>Créer des formulaires pour collecter des données auprès des utilisateurs, en utilisant des balises comme &ltform&gt, &ltinput&gt, &ltselect&gt, etc.</p>
+                <p>HTML structure le contenu de manière à ce qu'il soit accessible aux moteurs de recherche et aux technologies d'assistance, améliorant ainsi le référencement (SEO) et l'accessibilité pour les personnes ayant des handicaps.</p>
+                <p>Bien que HTML ne gère pas l'interactivité de manière native, il peut être utilisé avec CSS (pour le style) et JavaScript (pour les fonctionnalités dynamiques) pour créer des expériences web plus riches.</p>
+            </article>
+            <article>
+                <h1>Conclusion</h1>
+                <p>En résumé, HTML est le fondement de la création web. Il permet de définir la structure et le contenu des pages, et sert de base pour intégrer des styles et des comportements interactifs. Maîtriser HTML est essentiel pour quiconque souhaite créer ou comprendre des sites web.</p>
+            </article>
+        </section>
+        <div class="arrow">
+            <a href="/pages/explicationphp.html">
+                <img src="../assets/image/arrow back.svg" alt="">
+            </a>
+            <a href="/pages/explicationcss.html">
+                <img src="../assets/image/arrow forward.svg" alt="">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <h4>Formulaire de contact</h4>
+        <section class="formulaire">
+            <article>
+                <div>
+                    <p><strong>Nom</strong></p>
+                    <input type="text">
+                    <p><strong>Prénom</strong></p>
+                    <input type="text">
+                </div>
+                <div class="espace">
+                    <p><strong>Sexe</strong></p>
+                    <input type="radio" name="sexe" id="homme">
+                    <label for="m">Homme</label>
+                    <input type="radio" name="sexe" id="femme">
+                    <label for="f">Femme</label>
+                    <input type="radio" name="sexe" id="autre">
+                    <label for="a">Autre</label>   
+                </div>
+            </article>
+            <article>
+                <div>
+                    <strong><label for="pays">Pays</label></strong>
+                    <select id="pays">
+                        <option value="1">Grande-bretagne</option>
+                        <option value="2">France</option>
+                        <option value="3">Espagne</option>
+                        <option value="4">Italie</option>
+                        <option value="5">Belgique</option>
+                        <option value="6">Suède</option>
+                        <option value="7">Norvège</option>
+                        <option value="8">Allemagne</option>
+                        <option value="9">Hollande</option>
+                        <option value="10">Portugal</option>
+                        <option value="11">Pologne</option>
+                        <option value="12">Danemark</option>
+                    </select>
+                </div>
+                <div>
+                    <p><strong>Avez vous un métier un métier en rapport avec le monde du numérique ? Si oui indiquer le nous.</strong></p>
+                    <input type="radio">
+                    <label for="yes">Oui</label>
+                    <input type="radio">
+                    <label for="no">Non</label>
+                </div>
+                <div class="metier">
+                    <input type="text">
+                </div>
+                <div class="envoie">
+                    <button>Envoyer les données</button>
+                </div>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>

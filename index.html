@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>La programmation expliqué au personnes âgées</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="/index.html">
+                <img src="./assets/image/logo ordi.jpg" alt="logo ordi">
+            </a>
+        </div>
+        <div>
+            <nav>
+                <ul class="burger">
+                    <li>
+                        <a href="./pages/explicationhtml.html">HTML</a>
+                    </li>
+                    <li>
+                        <a href="./pages/explicationcss.html">CSS</a>
+                    </li>
+                    <li>
+                        <a href="./pages/explicationjs.html">Javascript</a>
+                    </li>
+                    <li>
+                        <a href="./pages/explicationphp.html">PHP</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger-img">
+                <img src="./assets/image/logo menu.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Le développement web expliqué à ta mamie</h1>
+        <section class="first-section">
+            <div class="photo">
+                <img src="./assets/image/photo developpement web.jpg" alt="ligne de code">
+            </div>
+            <div class="first-text">
+                <h2>Le développement web, qu'est ce que c'est ?</h2>
+                <p>Le développement web, c’est l’art de créer des sites et des applications en ligne. Cela se divise en deux grandes parties:</p>
+                <p>Le front-end: C’est tout ce que l’utilisateur voit et avec quoi il interagit, comme le design et les menus. On utilise des outils pour rendre le site joli et facile à utiliser.</p>
+                <p>Le back-end: C’est ce qui se passe derrière le site, comme la gestion des données et le fonctionnement des applications. Cela permet au site de fonctionner correctement et de traiter les informations.</p>
+                <p>En gros, le développement web allie créativité et technique pour offrir une expérience agréable et fluide aux utilisateurs sur Internet.</p>
+            </div>
+        </section>
+        <section class="second-section">
+            <div class="photo">
+                <img src="./assets/image/photo developpeur web.jpg" alt="personne entrain de développer">
+            </div>
+            <div class="second-text">
+                <h2>Le développeur web, qui est-ce ?</h2>
+                <p>Un développeur web est un professionnel qui conçoit, construit et maintient des sites et des applications en ligne. Il peut se spécialiser en front-end, en se concentrant sur l'aspect visuel et l'interaction utilisateur, ou en back-end, où il gère la logique et les bases de données. Certains développeurs font les deux, ce qu'on appelle des développeurs "full-stack".</p>
+                <p>Leur rôle implique également de travailler en collaboration avec des designers, des chefs de projet et d'autres spécialistes pour garantir que le produit final soit à la fois fonctionnel et esthétiquement plaisant. En outre, ils doivent rester à jour avec les nouvelles technologies et tendances pour offrir des solutions innovantes et performantes.</p>
+            </div>
+        </section>
+        <section class="tree-section">
+            <div class="photo">
+                <img src="./assets/image/photo language.jpg" alt="shéma de language html css js">
+            </div>
+            <div class="tree-text">
+                <h2>Les languages courament utilisé</h2>
+                <p>Le développement web utilise plusieurs langages, chacun ayant un rôle spécifique:</p>
+                <p>HTML (HyperText Markup Language): C’est la structure de base d’une page web, permettant de définir le contenu et les éléments comme les titres, les paragraphes et les images.</p>
+                <p>CSS (Cascading Style Sheets): Utilisé pour styliser le HTML, il permet de contrôler l’apparence des pages, y compris les couleurs, les polices et les mises en page.</p>
+                <p>JavaScript: Un langage de programmation qui rend les pages interactives. Il permet d'ajouter des fonctionnalités dynamiques, comme des animations et des formulaires interactifs.</p>
+                <p>PHP: Souvent utilisé pour créer des sites dynamiques et gérer les bases de données.</p>
+            </div>
+        </section>
+        <section class="link-logo">
+            <div>
+                <a href="./pages/explicationhtml.html">
+                    <img src="./assets/image/logo html.svg" alt="html">
+                </a>
+                <h3>HTML</h3>
+            </div>
+            <div>
+                <a href="./pages/explicationcss.html">
+                    <img src="./assets/image/logo css.svg" alt="css">
+                </a>
+                <h3>CSS</h3>
+            </div>
+            <div>
+                <a href="./pages/explicationjs.html">
+                    <img src="./assets/image/logo js.svg" alt="js">
+                </a>
+                <h3>JavaScript</h3>
+            </div>
+            <div>
+                <a href="./pages/explicationphp.html">
+                    <img src="./assets/image/logo php.svg" alt="php">
+                </a>
+                <h3>PHP</h3>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>Formulaire de contact</h4>
+        <section class="formulaire">
+            <article>
+                <div>
+                    <p><strong>Nom</strong></p>
+                    <input type="text">
+                    <p><strong>Prénom</strong></p>
+                    <input type="text">
+                </div>
+                <div class="espace">
+                    <p><strong>Sexe</strong></p>
+                    <input type="radio" name="sexe" id="homme">
+                    <label for="m">Homme</label>
+                    <input type="radio" name="sexe" id="femme">
+                    <label for="f">Femme</label>
+                    <input type="radio" name="sexe" id="autre">
+                    <label for="a">Autre</label>   
+                </div>
+            </article>
+            <article>
+                <div>
+                    <strong><label for="pays">Pays</label></strong>
+                    <select id="pays">
+                        <option value="1">Grande-bretagne</option>
+                        <option value="2">France</option>
+                        <option value="3">Espagne</option>
+                        <option value="4">Italie</option>
+                        <option value="5">Belgique</option>
+                        <option value="6">Suède</option>
+                        <option value="7">Norvège</option>
+                        <option value="8">Allemagne</option>
+                        <option value="9">Hollande</option>
+                        <option value="10">Portugal</option>
+                        <option value="11">Pologne</option>
+                        <option value="12">Danemark</option>
+                    </select>
+                </div>
+                <div>
+                    <p><strong>Avez vous un métier un métier en rapport avec le monde du numérique ? Si oui indiquer le nous.</strong></p>
+                    <input type="radio">
+                    <label for="yes">Oui</label>
+                    <input type="radio">
+                    <label for="no">Non</label>
+                </div>
+                <div class="metier">
+                    <input type="text">
+                </div>
+                <div class="envoie">
+                    <button>Envoyer les données</button>
+                </div>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>

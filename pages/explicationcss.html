@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/explicationcss.css">
+    <title>C'est quoi le css ?</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="/index.html">
+                <img src="../assets/image/logo ordi.jpg" alt="logo ordi">
+            </a>
+        </div>
+        <div>
+            <nav class="burger">
+                <ul>
+                    <li>
+                        <a href="/pages/explicationhtml.html">HTML</a>
+                    </li>
+                    <li>
+                        <a href="/pages/explicationcss.html">CSS</a>
+                    </li>
+                    <li>
+                        <a href="/pages/explicationjs.html">Javascript</a>
+                    </li>
+                    <li>
+                        <a href="/pages/explicationphp.html">PHP</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger-img">
+                <img src="../assets/image/logo menu.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="logo-css">
+            <img src="../assets/image/logo css (2).png" alt="">
+        </div>
+        <section>
+            <article>
+                <h1>Qu'est ce que c'est le css ?</h1>
+                <p>CSS, ou Cascading Style Sheets, est un langage de feuille de style utilisé pour décrire la présentation des documents HTML. Il permet de définir l’apparence des éléments sur une page web grâce à des sélecteurs, des propriétés et des valeurs.</p>
+                <p>Les sélecteurs ciblent des éléments HTML spécifiques, et les règles de style sont composées de déclarations qui incluent des propriétés comme la couleur, la taille de la police, les marges et les bordures. CSS prend en charge différentes méthodes de mise en page, comme Flexbox et Grid, facilitant l'organisation des éléments.</p>
+                <p>Il offre également la possibilité de rendre les designs réactifs avec des media queries, permettant aux styles de s’adapter à différentes tailles d’écran.</p>
+                <p>Des effets visuels comme les transitions et animations peuvent être ajoutés pour améliorer l’interaction. CSS peut être intégré directement dans le document HTML, ou bien être utilisé via des fichiers externes pour une meilleure organisation.</p>
+            </article>
+            <article>
+                <h1>À quoi ça sert ?</h1>
+                <p>CSS, ou Cascading Style Sheets, sert à définir la présentation et le style des pages web. Voici les principales fonctions de CSS:</p>
+                <p>Mise en forme du texte: CSS permet de contrôler la police, la taille, la couleur et l'espacement du texte.</p>
+                <p>Disposition des éléments: Il aide à organiser les éléments sur la page, en utilisant des techniques comme le modèle de boîte, Flexbox et Grid.</p>
+                <p>Styles des arrière-plans: CSS permet de définir des couleurs, des images et des motifs d'arrière-plan pour les éléments.</p>
+                <p>Réactivité: Grâce aux media queries, CSS permet de créer des designs adaptatifs qui s'ajustent aux différentes tailles d'écran.</p>
+                <p>Animations et transitions: Il offre la possibilité d'ajouter des effets dynamiques pour améliorer l'interaction utilisateur.</p>
+                <p>Contrôle de l'apparence des éléments : CSS permet de personnaliser des éléments comme les bordures, les ombres et les styles de boutons.</p>
+            </article>
+            <article>
+                <h1>Conclusion</h1>
+                <p>CSS est un outil indispensable pour la création de sites web modernes. En permettant de séparer le contenu et la présentation, il offre une flexibilité et une organisation accrues. Grâce à ses fonctionnalités de mise en forme, de disposition, de réactivité et d'animations, CSS permet de concevoir des expériences utilisateur attrayantes et intuitives. En maîtrisant CSS, les développeurs peuvent donner vie à leurs idées créatives et garantir que leurs sites s’affichent correctement sur une variété d’appareils et d’écrans.</p>
+            </article>
+        </section>
+        <div class="arrow">
+            <a href="/pages/explicationhtml.html">
+                <img src="../assets/image/arrow back.svg" alt="">
+            </a>
+            <a href="/pages/explicationjs.html">
+                <img src="../assets/image/arrow forward.svg" alt="">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <h4>Formulaire de contact</h4>
+        <section class="formulaire">
+            <article>
+                <div>
+                    <p><strong>Nom</strong></p>
+                    <input type="text">
+                    <p><strong>Prénom</strong></p>
+                    <input type="text">
+                </div>
+                <div class="espace">
+                    <p><strong>Sexe</strong></p>
+                    <input type="radio" name="sexe" id="homme">
+                    <label for="m">Homme</label>
+                    <input type="radio" name="sexe" id="femme">
+                    <label for="f">Femme</label>
+                    <input type="radio" name="sexe" id="autre">
+                    <label for="a">Autre</label>   
+                </div>
+            </article>
+            <article>
+                <div>
+                    <strong><label for="pays">Pays</label></strong>
+                    <select id="pays">
+                        <option value="1">Grande-bretagne</option>
+                        <option value="2">France</option>
+                        <option value="3">Espagne</option>
+                        <option value="4">Italie</option>
+                        <option value="5">Belgique</option>
+                        <option value="6">Suède</option>
+                        <option value="7">Norvège</option>
+                        <option value="8">Allemagne</option>
+                        <option value="9">Hollande</option>
+                        <option value="10">Portugal</option>
+                        <option value="11">Pologne</option>
+                        <option value="12">Danemark</option>
+                    </select>
+                </div>
+                <div>
+                    <p><strong>Avez vous un métier un métier en rapport avec le monde du numérique ? Si oui indiquer le nous.</strong></p>
+                    <input type="radio">
+                    <label for="yes">Oui</label>
+                    <input type="radio">
+                    <label for="no">Non</label>
+                </div>
+                <div class="metier">
+                    <input type="text">
+                </div>
+                <div class="envoie">
+                    <button>Envoyer les données</button>
+                </div>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>
