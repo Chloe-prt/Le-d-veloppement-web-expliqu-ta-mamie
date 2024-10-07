@@ -10,7 +10,7 @@
     <header>
         <div class="logo-container">
             <a href="/index.html">
-                <img src="../assets/image/logo ordi.jpg" alt="logo ordi">
+                <img src="../assets/image/logo-ordi.jpg" alt="logo ordi">
             </a>
         </div>
         <div>
@@ -31,15 +31,15 @@
                 </ul>
             </nav>
             <div class="burger-img">
-                <img src="../assets/image/logo menu.svg" alt="">
+                <img src="../assets/image/logo-menu.svg" alt="">
             </div>
         </div>
     </header>
     <main>
         <div class="logo-js">
-            <img src="../assets/image/logo js (2).png" alt="">
+            <img src="../assets/image/logo-js(2).png" alt="">
         </div>
-        <section>
+        <section class="blabla">
             <article>
                 <h1>Qu'est ce que c'est le JavaScript ?</h1>
                 <p>JavaScript est un langage de programmation principalement utilisé pour rendre les pages web interactives Il permet de manipuler le contenu HTML et CSS d’une page en temps réel Les développeurs l’utilisent pour créer des animations des formulaires dynamiques et des applications web</p>
@@ -65,65 +65,48 @@
         </section>
         <div class="arrow">
             <a href="/pages/explicationcss.html">
-                <img src="../assets/image/arrow back.svg" alt="">
+                <img src="../assets/image/arrow-back.svg" alt="">
             </a>
             <a href="/pages/explicationphp.html">
-                <img src="../assets/image/arrow forward.svg" alt="">
+                <img src="../assets/image/arrow-forward.svg" alt="">
             </a>
         </div>
     </main>
     <footer>
-        <h4>Formulaire de contact</h4>
+        <section class="contact">
+            <h4>Nous contacter</h4>
+            <p>155 Rue du Dirigeable, <br> 13400 Aubagne</p>
+            <a href="tel:0683791783"> Téléphone: 06 83 79 17 83</a>
+            <a href="mailto:contact@ri7.fr">mail: contact@ri7.fr</a>
+            <div class="social-media">
+                <a href="https://www.facebook.com/">
+                    <img src="../assets/image/facebook.png" alt="">
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img src="../assets/image/youtube.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/zeraldo_/">
+                    <img src="../assets/image/instagram.png" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/chlo%C3%A9-pieront-9a249021a/">
+                    <img src="../assets/image/linkedin.png" alt="">
+                </a>
+            </div>
+        </section>
         <section class="formulaire">
-            <article>
-                <div>
-                    <p><strong>Nom</strong></p>
-                    <input type="text">
-                    <p><strong>Prénom</strong></p>
-                    <input type="text">
-                </div>
-                <div class="espace">
-                    <p><strong>Sexe</strong></p>
-                    <input type="radio" name="sexe" id="homme">
-                    <label for="m">Homme</label>
-                    <input type="radio" name="sexe" id="femme">
-                    <label for="f">Femme</label>
-                    <input type="radio" name="sexe" id="autre">
-                    <label for="a">Autre</label>   
-                </div>
-            </article>
-            <article>
-                <div>
-                    <strong><label for="pays">Pays</label></strong>
-                    <select id="pays">
-                        <option value="1">Grande-bretagne</option>
-                        <option value="2">France</option>
-                        <option value="3">Espagne</option>
-                        <option value="4">Italie</option>
-                        <option value="5">Belgique</option>
-                        <option value="6">Suède</option>
-                        <option value="7">Norvège</option>
-                        <option value="8">Allemagne</option>
-                        <option value="9">Hollande</option>
-                        <option value="10">Portugal</option>
-                        <option value="11">Pologne</option>
-                        <option value="12">Danemark</option>
-                    </select>
-                </div>
-                <div>
-                    <p><strong>Avez vous un métier un métier en rapport avec le monde du numérique ? Si oui indiquer le nous.</strong></p>
-                    <input type="radio">
-                    <label for="yes">Oui</label>
-                    <input type="radio">
-                    <label for="no">Non</label>
-                </div>
-                <div class="metier">
-                    <input type="text">
-                </div>
-                <div class="envoie">
-                    <button>Envoyer les données</button>
-                </div>
-            </article>
+            <h4>Si vous voulez un renseignement, compléter ceci</h4>
+            <div>
+                <form action="#" method="post">
+                    <input type="text" placeholder="Nom" />
+                </form>
+                <form action="#" method="post">
+                    <input type="text" placeholder="Prénom" />
+                </form>
+                <form action="#">
+                    <textarea class="area-contact" name="messages" placeholder="Posez vos question"></textarea>
+                </form>
+            </div>
+            <button class="envoie">Soumettre</button>
         </section>
     </footer>
 </body>

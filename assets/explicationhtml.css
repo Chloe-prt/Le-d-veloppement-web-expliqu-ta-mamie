@@ -5,7 +5,7 @@ body{
     color: white;
 }
 header{
-    background-image: url(./image/image\ footer.jpg);
+    background-image: url(./image/image-footer.jpg);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +36,7 @@ main{
     display: flex;
     flex-direction: column;
 }
-section{
+.blabla{
     display: flex;
     justify-content: center;
     background-color: rgba(85, 84, 84, 0.666);
@@ -88,40 +88,65 @@ section article{
 
 
 
-.formulaire{
+footer{
     display: flex;
     flex-direction: row;
-}
-.formulaire article{
-    display: flex;
     justify-content: center;
+    padding-inline-start: 20%;
+    margin: 50px;
+    background-color: black;
+    padding: 100px;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+.social-media img{
+    width: 25px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    display: flex;
     flex-direction: column;
+    gap: 10px;
+    margin: 0%;
+    padding: 0%;
+}
+.contact p{
+    margin: 0%;
+    padding: 0%;
+}
+footer section{
     width: 50%;
 }
-.formulaire article:first-of-type{
-    margin-left: 50px;
+.contact h4{
+    font-size: x-large;
 }
-h4{
-    text-align: center;
-    font-size: xx-large;
+.formulaire input{
+    width: 370px;
 }
-.espace{
-    margin-top: 20px;
+.area-contact{
+    width: 370px;
+    height: 100px;
+}
+.formulaire{
+    margin-right: -200px;
 }
 .envoie{
-    margin-top: 50px;
-}
-.espace div{
-    margin-bottom: 10px;
-}
-.metier input{
+    border-radius: 25px;
+    padding-inline: 20px;
     margin-top: 20px;
+    transition: background-color 0,5s ease;
 }
-footer{
-    background-image: url(./image/image\ footer.jpg);
-    padding-bottom: 60px;
-    padding-top: 30px;
+.envoie:hover{
+    background-color: rgb(242, 180, 66);
 }
+
+
+
 
 
 
@@ -135,7 +160,6 @@ footer{
     header .burger {
         display: none;
     }
-
 
 
     section{
@@ -156,14 +180,31 @@ footer{
     }
 
 
-    .formulaire{
+    footer{
+        display: block;
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         text-align: center;
+        padding: 40px;
     }
-    .formulaire article:first-child{
+    .formulaire input{
+        width: 200px;
+    }
+    .area-contact{
+        width: 200px;
+    }
+    footer section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .envoie{
+        padding-inline: 60px;
+        font-size: larger;
+    }
+    .formulaire{
         margin: 0%;
-        margin-bottom: 40px;
     }
+    
 }
